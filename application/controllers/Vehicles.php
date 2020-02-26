@@ -1,14 +1,14 @@
 <?php 
-    class Cars extends CI_Controller
+    class Vehicles extends CI_Controller
     {
         public function index()
         {
-            $data['title'] = 'Cars';
-            $data['cars'] = $this->car_model->get_cars();
+            $data['title'] = 'Vehicles';
+            $data['vehicles'] = $this->vehicle_model->get_vehicles();
              
-            print_r($data['cars']);
+            print_r($data['vehicles']);
             $this->load->view('templates/header');
-            $this->load->view('cars/index', $data);
+            $this->load->view('vehicles/index', $data);
             $this->load->view('templates/footer');
 
         }

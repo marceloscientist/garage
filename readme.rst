@@ -4,7 +4,10 @@ What is a Garage System
 
 CodeIgniter Application on going to train and attain some expertise over the framework
 
+Database
 
+Garage (database)
+Cars (table) { id,title,slug,body,created_at }	
 *********
 Resources
 *********
