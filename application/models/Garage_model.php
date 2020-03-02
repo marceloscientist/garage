@@ -14,5 +14,9 @@
             return $query->row_array();
             
         }
+        public function set_garage($data  = null)
+        {
+            
+        }
     }
     
