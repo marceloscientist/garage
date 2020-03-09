@@ -1,5 +1,11 @@
 <br>
 <h2><?php $title; ?></h2>
+
+<?php echo form_open('/garages/create/'); ?>
+    <input type="submit" value="create" class="btn btn-danger">
+</form>
+
+<br>
 <?php foreach ($garages as $garage) : ?>
     <h3><?php echo $garage['name']; ?></h3>
     <p>Located at: <?php echo $garage['location']; ?></p> 

@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$route['garages/update'] = 'garages/update';
 $route['garages/create'] = 'garages/create';
 $route['garages/(:any)'] = 'garages/view/$1';
 $route['garages'] = 'garages/index';
